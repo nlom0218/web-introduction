@@ -1,10 +1,12 @@
 import movies from './movies.js';
 
 const $movieList = document.querySelector('.movie-list');
+const $guestBook = document.querySelector('.guest-book');
 
 function App() {
   this.init = () => {
     randerMovie();
+    randerGuestBook();
   };
 
   const randerMovie = () => {
@@ -22,18 +24,14 @@ function App() {
       })
       .join('');
   };
+
+  const randerGuestBook = () => {
+    $guestBook.innerHTML = movies
+      .map((movie) => {
+        return `<label><input type="checkbox" name="taste" value=${movie.title}/>${movie.title}</label>`;
+      })
+      .join('');
+  };
 }
 const app = new App();
 app.init();
-
-{
-  /* <div>
-  <div>1순위 - 악마를 보았다.</div>
-  <img src="https://movie-phinf.pstatic.net/20111223_41/1324620268521WGqqX_JPEG/movie_image.jpg?type=m203_290_2" />
-  <div>
-    <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=72408">
-      👉 네이버 영화 바로가기
-    </a>
-  </div>
-</div>; */
-}
