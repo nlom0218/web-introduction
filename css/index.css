@@ -1,1 +1,10 @@
 @import url(./reset.css);
+
+body {
+  max-height: 100vh;
+  min-height: 100vh;
+  padding: 40px;
+  background-color: rgb(240, 240, 240);
+  display: grid;
+  row-gap: 40px;
+}
