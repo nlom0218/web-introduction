@@ -1,0 +1,46 @@
+form {
+  display: grid;
+  row-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.form-input {
+  display: grid;
+  row-gap: 20px;
+}
+
+.form-name {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 20px;
+}
+
+.form-name input {
+  padding: 5px 15px;
+}
+
+.form-taste {
+  display: grid;
+  row-gap: 10px;
+}
+
+.guest-book {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+}
+
+.input-title {
+  font-weight: 600;
+}
+
+.button-container {
+  align-self: flex-end;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: rgb(182, 182, 251);
+  border-radius: 50px;
+}

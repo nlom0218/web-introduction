@@ -1,6 +1,7 @@
 @import url(./reset.css);
 @import url(./intro.css);
 @import url(./bestMovie.css);
+@import url(./guestBook.css);
 
 body {
   min-height: 100vh;

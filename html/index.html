@@ -26,21 +26,26 @@
     <div>
       <h2 class="sub-title">✍️ 방명록</h2>
       <form>
-        <div>
-          <div>이름</div>
-          <input
-            class="name-input"
-            type="text"
-            name="name"
-            placeholder="당신은 누구십니까?"
-          />
+        <div class="form-input">
+          <div class="form-name">
+            <div class="input-title">이름</div>
+            <input
+              class="name-input"
+              type="text"
+              name="name"
+              placeholder="당신은 누구십니까?"
+              autocomplete="off"
+            />
+          </div>
+          <div class="form-taste">
+            <div class="input-title">당신의 취향은?</div>
+            <div class="guest-book"></div>
+          </div>
         </div>
-        <div>
-          <div>당신의 취향은?</div>
-          <div class="guest-book"></div>
+        <div class="button-container">
+          <button class="register-button" type="button">등록</button>
+          <button type="reset">취소</button>
         </div>
-        <button class="register-button" type="button">등록</button>
-        <button type="reset">취소</button>
       </form>
     </div>
     <script src="../js/index.js" type="module"></script>
