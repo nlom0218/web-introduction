@@ -1,9 +1,18 @@
 @import url(./reset.css);
 @import url(./intro.css);
+@import url(./bestMovie.css);
 
 body {
+  min-height: 100vh;
   padding: 40px;
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(245, 245, 245);
   display: grid;
+  grid-template-rows: auto 1fr auto;
   row-gap: 40px;
+}
+
+.sub-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
 }

@@ -13,8 +13,8 @@ function App() {
   const randerMovie = () => {
     $movieList.innerHTML = movies
       .map((movie, idx) => {
-        return `<div>
-      <div>${idx + 1}순위 - ${movie.title}</div>
+        return `<div class="movie">
+      <div class="movie-title">${idx + 1}순위 - ${movie.title}</div>
       <img src=${movie.imageUrl} />
       <div>
         <a href=${movie.naverLink}>
