@@ -12,10 +12,10 @@ export default [
     naverLink: 'https://movie.naver.com/movie/bi/mi/basic.naver?code=36944',
   },
   {
-    title: '친절한 금자씨',
+    title: '남산의 부장들',
     imageUrl:
-      'https://movie-phinf.pstatic.net/20111223_268/1324566765333lxqHM_JPEG/movie_image.jpg?type=m203_290_2',
-    naverLink: 'https://movie.naver.com/movie/bi/mi/basic.naver?code=38766',
+      'https://movie-phinf.pstatic.net/20200103_41/1578032244761ejKMX_JPEG/movie_image.jpg?type=m203_290_2',
+    naverLink: 'https://movie.naver.com/movie/bi/mi/basic.naver?code=176306#',
   },
   {
     title: '김복남 살인사건의 전말',
@@ -24,9 +24,9 @@ export default [
     naverLink: 'https://movie.naver.com/movie/bi/mi/basic.naver?code=72408',
   },
   {
-    title: '남산의 부장들',
+    title: '내부자들',
     imageUrl:
-      'https://movie-phinf.pstatic.net/20200103_41/1578032244761ejKMX_JPEG/movie_image.jpg?type=m203_290_2',
-    naverLink: 'https://movie.naver.com/movie/bi/mi/basic.naver?code=176306#',
+      'https://movie-phinf.pstatic.net/20151231_70/14515598150769qgj2_JPEG/movie_image.jpg?type=m203_290_2',
+    naverLink: 'https://movie.naver.com/movie/bi/mi/basic.naver?code=147001',
   },
 ];
